@@ -4877,9 +4877,9 @@ nodemailer@6.4.18:
   integrity sha512-ht9cXxQ+lTC+t00vkSIpKHIyM4aXIsQ1tcbQCn5IOnxYHi81W2XOaU66EQBFFpbtzLEBTC94gmkbD4mGZQzVpA==
 
 nodemailer@^6.0.0:
-  version "6.6.0"
-  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.6.0.tgz#ed47bb572b48d9d0dca3913fdc156203f438f427"
-  integrity sha512-ikSMDU1nZqpo2WUPE0wTTw/NGGImTkwpJKDIFPZT+YvvR9Sj+ze5wzu95JHkBMglQLoG2ITxU21WukCC/XsFkg==
+  version "6.6.1"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.6.1.tgz#2a05fbf205b897d71bf43884167b5d4d3bd01b99"
+  integrity sha512-1xzFN3gqv+/qJ6YRyxBxfTYstLNt0FCtZaFRvf4Sg9wxNGWbwFmGXVpfSi6ThGK6aRxAo+KjHtYSW8NvCsNSAg==
 
 nodemailer@^6.5.0:
   version "6.5.0"
@@ -6327,7 +6327,7 @@ tar-stream@^2.0.0:
     readable-stream "^3.1.1"
 
 "taskcluster-client@link:clients/client":
-  version "43.2.0"
+  version "44.0.0"
   dependencies:
     debug "^4.1.1"
     got "^11.8.1"
@@ -6337,37 +6337,37 @@ tar-stream@^2.0.0:
     taskcluster-lib-urls "^13.0.0"
 
 "taskcluster-db@link:db":
-  version "43.2.0"
+  version "44.0.0"
 
 "taskcluster-lib-api@link:libraries/api":
-  version "43.2.0"
+  version "44.0.0"
 
 "taskcluster-lib-app@link:libraries/app":
-  version "43.2.0"
+  version "44.0.0"
 
 "taskcluster-lib-azqueue@link:libraries/azqueue":
-  version "43.2.0"
+  version "44.0.0"
 
 "taskcluster-lib-config@link:libraries/config":
-  version "43.2.0"
+  version "44.0.0"
 
 "taskcluster-lib-iterate@link:libraries/iterate":
-  version "43.2.0"
+  version "44.0.0"
 
 "taskcluster-lib-loader@link:libraries/loader":
-  version "43.2.0"
+  version "44.0.0"
 
 "taskcluster-lib-monitor@link:libraries/monitor":
-  version "43.2.0"
+  version "44.0.0"
 
 "taskcluster-lib-postgres@link:libraries/postgres":
-  version "43.2.0"
+  version "44.0.0"
 
 "taskcluster-lib-pulse@link:libraries/pulse":
-  version "43.2.0"
+  version "44.0.0"
 
 "taskcluster-lib-references@link:libraries/references":
-  version "43.2.0"
+  version "44.0.0"
 
 taskcluster-lib-scopes@^11.0.0:
   version "11.0.0"
@@ -6377,7 +6377,7 @@ taskcluster-lib-scopes@^11.0.0:
     fast-json-stable-stringify "^2.1.0"
 
 "taskcluster-lib-testing@link:libraries/testing":
-  version "43.2.0"
+  version "44.0.0"
 
 taskcluster-lib-urls@^13.0.0:
   version "13.0.1"
@@ -6385,7 +6385,7 @@ taskcluster-lib-urls@^13.0.0:
   integrity sha512-WrhKMbiWmpPrB0vbzLZq4W35mhdPVLklZY+qrBoI7KQzFAjO/qsgS8ssHL6eYmvBf4fE7C+C9ZFxQpQOUynQvg==
 
 "taskcluster-lib-validate@link:libraries/validate":
-  version "43.2.0"
+  version "44.0.0"
 
 temporary@^1.0.0:
   version "1.1.0"
