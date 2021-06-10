@@ -111,9 +111,9 @@
     xml2js "^0.4.19"
 
 "@azure/ms-rest-js@^2.0.5":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@azure/ms-rest-js/-/ms-rest-js-2.5.0.tgz#a998ce3822e16528841e8ba9a7bd649a07ade461"
-  integrity sha512-mXezdECH1Vjr+7FkH5+LlL85/YEHOrXHYqd9qh8b6dgvvE7sVvUk3qrtRGk3WZr4TLrZvRLE7NbFU7RgHHg45Q==
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@azure/ms-rest-js/-/ms-rest-js-2.5.1.tgz#a876499d639096ffdf6c14d019effed1991934a0"
+  integrity sha512-2McxhuZy1PRcAsX8PFRD6ELJg1Hr2a1vGvUjcWqVGcfej6MeXplC0P9GzJfNh739fNtzyq0F6ps657o+nVHJpg==
   dependencies:
     "@azure/core-auth" "^1.1.4"
     abort-controller "^3.0.0"
@@ -4603,12 +4603,24 @@ mime-db@1.47.0:
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.47.0.tgz#8cb313e59965d3c05cfbf898915a267af46a335c"
   integrity sha512-QBmA/G2y+IfeS4oktet3qRZ+P5kPhCKRXxXnQEudYqUaEioAU1/Lq2us3D/t1Jfo4hE9REQPrbB7K5sOczJVIw==
 
+mime-db@1.48.0:
+  version "1.48.0"
+  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.48.0.tgz#e35b31045dd7eada3aaad537ed88a33afbef2d1d"
+  integrity sha512-FM3QwxV+TnZYQ2aRqhlKBMHxk10lTbMt3bBkMAp54ddrNeVSfcQYOOKuGuy3Ddrm38I04If834fOUSq1yzslJQ==
+
 "mime-db@>= 1.43.0 < 2":
   version "1.46.0"
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.46.0.tgz#6267748a7f799594de3cbc8cde91def349661cee"
   integrity sha512-svXaP8UQRZ5K7or+ZmfNhg2xX3yKDMUzqadsSqi4NCH/KomcH75MAMYAGVlvXn4+b/xOPhS3I2uHKRUzvjY7BQ==
 
-mime-types@^2.1.12, mime-types@~2.1.19, mime-types@~2.1.24:
+mime-types@^2.1.12:
+  version "2.1.31"
+  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.31.tgz#a00d76b74317c61f9c2db2218b8e9f8e9c5c9e6b"
+  integrity sha512-XGZnNzm3QvgKxa8dpzyhFTHmpP3l5YNusmne07VUOXxou9CqUqYa/HBy124RqtVh/O2pECas/MOcsDgpilPOPg==
+  dependencies:
+    mime-db "1.48.0"
+
+mime-types@~2.1.19, mime-types@~2.1.24:
   version "2.1.30"
   resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.30.tgz#6e7be8b4c479825f85ed6326695db73f9305d62d"
   integrity sha512-crmjA4bLtR8m9qLpHvgxSChT+XoSlZi8J4n/aIdn3z92e/U47Z0V/yl+Wh9W046GgFVAmoNR/fmdbZYcSSIUeg==
@@ -6327,7 +6339,7 @@ tar-stream@^2.0.0:
     readable-stream "^3.1.1"
 
 "taskcluster-client@link:clients/client":
-  version "43.2.0"
+  version "44.0.0"
   dependencies:
     debug "^4.1.1"
     got "^11.8.1"
@@ -6337,37 +6349,37 @@ tar-stream@^2.0.0:
     taskcluster-lib-urls "^13.0.0"
 
 "taskcluster-db@link:db":
-  version "43.2.0"
+  version "44.0.0"
 
 "taskcluster-lib-api@link:libraries/api":
-  version "43.2.0"
+  version "44.0.0"
 
 "taskcluster-lib-app@link:libraries/app":
-  version "43.2.0"
+  version "44.0.0"
 
 "taskcluster-lib-azqueue@link:libraries/azqueue":
-  version "43.2.0"
+  version "44.0.0"
 
 "taskcluster-lib-config@link:libraries/config":
-  version "43.2.0"
+  version "44.0.0"
 
 "taskcluster-lib-iterate@link:libraries/iterate":
-  version "43.2.0"
+  version "44.0.0"
 
 "taskcluster-lib-loader@link:libraries/loader":
-  version "43.2.0"
+  version "44.0.0"
 
 "taskcluster-lib-monitor@link:libraries/monitor":
-  version "43.2.0"
+  version "44.0.0"
 
 "taskcluster-lib-postgres@link:libraries/postgres":
-  version "43.2.0"
+  version "44.0.0"
 
 "taskcluster-lib-pulse@link:libraries/pulse":
-  version "43.2.0"
+  version "44.0.0"
 
 "taskcluster-lib-references@link:libraries/references":
-  version "43.2.0"
+  version "44.0.0"
 
 taskcluster-lib-scopes@^11.0.0:
   version "11.0.0"
@@ -6377,7 +6389,7 @@ taskcluster-lib-scopes@^11.0.0:
     fast-json-stable-stringify "^2.1.0"
 
 "taskcluster-lib-testing@link:libraries/testing":
-  version "43.2.0"
+  version "44.0.0"
 
 taskcluster-lib-urls@^13.0.0:
   version "13.0.1"
@@ -6385,7 +6397,7 @@ taskcluster-lib-urls@^13.0.0:
   integrity sha512-WrhKMbiWmpPrB0vbzLZq4W35mhdPVLklZY+qrBoI7KQzFAjO/qsgS8ssHL6eYmvBf4fE7C+C9ZFxQpQOUynQvg==
 
 "taskcluster-lib-validate@link:libraries/validate":
-  version "43.2.0"
+  version "44.0.0"
 
 temporary@^1.0.0:
   version "1.1.0"
