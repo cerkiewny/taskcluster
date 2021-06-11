@@ -23,6 +23,7 @@ import ContentSaveIcon from 'mdi-react/ContentSaveIcon';
 import { docs } from 'taskcluster-lib-urls';
 import CodeEditor from '../CodeEditor';
 import Code from '../Code';
+import JsonDisplay from '../JsonDisplay';
 import TextField from '../TextField';
 import MarkdownTextArea from '../MarkdownTextArea';
 import ErrorPanel from '../ErrorPanel';
@@ -760,7 +761,7 @@ export default class HookForm extends Component {
                       for more information.
                     </span>
                   </Typography>
-                  <CodeEditor
+                  <JsonDisplay
                     mode="yaml"
                     lint
                     value={taskInput}
